@@ -1,27 +1,62 @@
-import { defineConfig } from 'vitepress';
-
-export default defineConfig({
+module.exports = {
   title: '你的站点名称',
   description: '站点描述',
   themeConfig: {
+    nav: [
+      { text: '首页', link: '/' },
+      {
+        text: '指南',
+        items: [
+          { text: '开始', link: '/guide/01' },
+          { text: '安装', link: '/guide/02' },
+          { text: '配置', link: '/guide/03' }
+        ]
+      }
+    ],
+    sidebar: {
+      '/': [
+        {
+          text: '指南',
+          items: [
+            { text: '开始', link: '/guide/01' },
+            { text: '安装', link: '/guide/02' },
+            { text: '配置', link: '/guide/03' }
+          ]
+        }
+      ],
+      '/guide/': [
+        {
+          text: '指南',
+          items: [
+            { text: '开始', link: '/guide/01' },
+            { text: '安装', link: '/guide/02' },
+            { text: '配置', link: '/guide/03' }
+          ]
+        }
+      ]
+    },
     locales: {
       '/': {
         lang: 'zh-CN',
+        title: '你的站点名称',
+        description: '站点描述',
         label: '简体中文',
         selectText: '选择语言',
-        nav: [
-          { text: '首页', link: '/' },
-          {
-            text: '指南',
-            items: [
-              { text: '开始', link: '/guide/01' },
-              { text: '安装', link: '/guide/02' },
-              { text: '配置', link: '/guide/03' }
-            ]
+        ariaLabel: '选择语言',
+        editLinkText: '在 GitHub 上编辑此页',
+        lastUpdated: '上次更新',
+        outlineTitle: '本页内容', // 自定义 "On this page"
+        next: '下一页', // 自定义 "Next page"
+        prev: '上一页', // 自定义 "Previous page"
+        serviceWorker: {
+          updatePopup: {
+            message: "发现新内容可用。",
+            buttonText: "刷新"
           }
-        ],
-        sidebar: {
-          '/guide/': [
+        },
+        themeConfig: {
+          nav: [
+            { text: '首页', link: '/' },
             {
               text: '指南',
               items: [
@@ -30,37 +65,31 @@ export default defineConfig({
                 { text: '配置', link: '/guide/03' }
               ]
             }
-          ]
-        }
-      },
-      '/en/': {
-        lang: 'en-US',
-        label: 'English',
-        selectText: 'Languages',
-        nav: [
-          { text: 'Home', link: '/en/' },
-          {
-            text: 'Guide',
-            items: [
-              { text: 'Getting Started', link: '/en/guide/01' },
-              { text: 'Installation', link: '/en/guide/02' },
-              { text: 'Configuration', link: '/en/guide/03' }
+          ],
+          sidebar: {
+            '/': [
+              {
+                text: '指南',
+                items: [
+                  { text: '开始', link: '/guide/01' },
+                  { text: '安装', link: '/guide/02' },
+                  { text: '配置', link: '/guide/03' }
+                ]
+              }
+            ],
+            '/guide/': [
+              {
+                text: '指南',
+                items: [
+                  { text: '开始', link: '/guide/01' },
+                  { text: '安装', link: '/guide/02' },
+                  { text: '配置', link: '/guide/03' }
+                ]
+              }
             ]
-          }
-        ],
-        sidebar: {
-          '/en/guide/': [
-            {
-              text: 'Guide',
-              items: [
-                { text: 'Getting Started', link: '/en/guide/01' },
-                { text: 'Installation', link: '/en/guide/02' },
-                { text: 'Configuration', link: '/en/guide/03' }
-              ]
-            }
-          ]
+          },
         }
       }
     }
   }
-});
+}
