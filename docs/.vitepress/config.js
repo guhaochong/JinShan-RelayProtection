@@ -1,7 +1,8 @@
 module.exports = {
   base: '/JinShan-RelayProtection/',
-  title: '你的站点名称',
-  description: '站点描述',
+  title: 'JinShan-RelayProtection',
+  description: 'JinShan-RelayProtection',
+    lang: 'zh-CN', // 设置默认语言为中文
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
@@ -49,25 +50,16 @@ module.exports = {
           ]
         }
       ]
-    },
-    locales: {
-      '/': {
-        lang: 'zh-CN',
-        title: '你的站点名称',
-        description: '站点描述',
-        label: '简体中文',
-        selectText: '选择语言',
-        ariaLabel: '选择语言',
-        editLinkText: '在 GitHub 上编辑此页',
-        lastUpdated: '上次更新',
-        outlineTitle: '本页内容', 
-        next: '下一页',
-        prev: '上一页',
-        serviceWorker: {
-          updatePopup: {
-            message: "发现新内容可用。",
-            buttonText: "刷新"
-          }
+    ],
+    editLinkText: '在 GitHub 上编辑此页',
+    lastUpdated: '上次更新',
+    nextText: '下一页',
+    prevText: '上一页',
+    outlineTitle: '本页内容', // 自定义 "On this page"
+    serviceWorker: {
+      updatePopup: {
+        message: "发现新内容可用。",
+        buttonText: "刷新"          }
         }
       }
     }
