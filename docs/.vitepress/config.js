@@ -21,7 +21,13 @@ module.exports = {
           items: [
             { text: '开始', link: '/guide/01' },
             { text: '安装', link: '/guide/02' },
-            { text: '配置', link: '/guide/03' }
+            {
+              text: '配置',
+              items: [
+                { text: '基本配置', link: '/guide/03' },
+                { text: '高级配置', link: '/guide/04' }
+              ]
+            }
           ]
         }
       ],
@@ -31,7 +37,13 @@ module.exports = {
           items: [
             { text: '开始', link: '/guide/01' },
             { text: '安装', link: '/guide/02' },
-            { text: '配置', link: '/guide/03' }
+            {
+              text: '配置',
+              items: [
+                { text: '基本配置', link: '/guide/03' },
+                { text: '高级配置', link: '/guide/04' }
+              ]
+            }
           ]
         }
       ]
