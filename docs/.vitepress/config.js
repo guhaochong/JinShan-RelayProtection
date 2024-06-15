@@ -24,6 +24,16 @@ module.exports = {
             { text: '配置', link: '/guide/03' }
           ]
         }
+      ],
+      '/': [
+        {
+          text: '指南',
+          items: [
+            { text: '开始', link: '/guide/01' },
+            { text: '安装', link: '/guide/02' },
+            { text: '配置', link: '/guide/03' }
+          ]
+        }
       ]
     },
     locales: {
