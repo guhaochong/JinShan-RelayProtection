@@ -23,6 +23,7 @@ module.exports = {
             { text: '安装', link: '/guide/02' },
             {
               text: '配置',
+              collapsible: true, // 添加这个属性
               items: [
                 { text: '基本配置', link: '/guide/03' },
                 { text: '高级配置', link: '/guide/04' }
@@ -39,6 +40,7 @@ module.exports = {
             { text: '安装', link: '/guide/02' },
             {
               text: '配置',
+              collapsible: true, // 添加这个属性
               items: [
                 { text: '基本配置', link: '/guide/03' },
                 { text: '高级配置', link: '/guide/04' }
