@@ -1,12 +1,12 @@
-# Get Started
+# 快速索引
 
 This is a normal page, which contains VuePress basics.
 
-## Pages
+## 表
 
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
-
-See [routing][] for more details.
+- [001](Legacydata/10千伏 K型 标准 二次铭牌表-24-0-1.md)
+- 002
+- 003
 
 ## Content
 

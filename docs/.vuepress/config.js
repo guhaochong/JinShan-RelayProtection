@@ -15,16 +15,17 @@ export default defineUserConfig({
 
     navbar: [
       { text: '首页', link: '/' },
-      { text: '快速开始', link: '/get-started' },
+      { text: '索引', link: '/get-started' },
       { text: '关于', link: '/about' }
     ],
 
     sidebar: {
       '/': [
         {
-          text: '指南',
+          text: '目录',
           children: [
             '/get-started.md',
+            'Legacydata/10千伏 K型 标准 二次铭牌表-24-0-1.md',
             '/about.md',
           ],
         },
