@@ -25,7 +25,7 @@ export default defineUserConfig({
           text: '目录',
           children: [
             '/get-started.md',
-            'Legacydata/10K.md',
+            '/Legacydata/10K.md',
             '/about.md',
           ],
         },
