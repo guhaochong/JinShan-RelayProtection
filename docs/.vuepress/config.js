@@ -8,6 +8,7 @@ export default defineUserConfig({
   title: 'JinShan-RelayProtection',
   description: 'JinShan-RelayProtection Site',
 
+  base: '/JinShan-RelayProtection/',
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
