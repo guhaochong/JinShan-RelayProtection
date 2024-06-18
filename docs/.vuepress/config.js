@@ -7,7 +7,7 @@ export default defineUserConfig({
 
   title: 'VuePress',
   description: 'My first VuePress Site',
-  base: '/JinShan-RelayProtection/',
+  ##base: '/JinShan-RelayProtection/',
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
