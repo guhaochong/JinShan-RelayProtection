@@ -8,7 +8,7 @@ export default defineUserConfig({
   title: 'JinShan-RelayProtection',
   description: 'JinShan-RelayProtection Site',
 
-  base: '/JinShan-RelayProtection/', // 确认你的仓库名称作为 base
+  // base: '/JinShan-RelayProtection/', // 确认你的仓库名称作为 base
 
   theme: defaultTheme({
     logo: '/images/goodlogo.png', // 确认你的 logo 路径正确
