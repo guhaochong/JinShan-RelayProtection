@@ -6,7 +6,7 @@ import {
 } from "./chunk-ICRYXTSQ.js";
 
 // node_modules/@vuepress/theme-default/lib/client/composables/useUpdateDeviceStatus.js
-import cssVariables from "D:/Web/Github/JinShan-RelayProtection/vuepress-starter/node_modules/@vuepress/theme-default/lib/client/styles/_variables.module.scss";
+import cssVariables from "D:/Web/Github/JinShan-RelayProtection/node_modules/@vuepress/theme-default/lib/client/styles/_variables.module.scss";
 var DeviceType;
 (function(DeviceType2) {
   DeviceType2["MOBILE"] = "mobile";
