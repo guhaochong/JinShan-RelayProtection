@@ -10,3 +10,20 @@ export const routes = Object.fromEntries([
   ["/Legacydata/10%E5%8D%83%E4%BC%8F%20P%E5%9E%8B%20%E6%A0%87%E5%87%86%20%E4%B8%8A%E4%BC%A0%E8%B0%83%E5%BA%A6%E7%82%B9%E8%A1%A8-23-0-2.html", { loader: () => import(/* webpackChunkName: "Legacydata_10千伏 P型 标准 上传调度点表-23-0-2.html" */"D:/Web/Github/JinShan-RelayProtection/docs/.vuepress/.temp/pages/Legacydata/10千伏 P型 标准 上传调度点表-23-0-2.html.js"), meta: {"title":"10千伏 P型 标准 信息量表"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"D:/Web/Github/JinShan-RelayProtection/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateRoutes) {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+  }
+  if (__VUE_HMR_RUNTIME__.updateRedirects) {
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ routes, redirects }) => {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  })
+}

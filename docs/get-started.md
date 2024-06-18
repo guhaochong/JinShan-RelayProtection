@@ -1,14 +1,14 @@
 # 快速索引
 
-This is a normal page, which contains VuePress basics.
+这是一个快速索引页面，在这里可以按分类找到你需要的数据表
 
-## 表
+## 点表库
 
-- [001](/Legacydata/10K.md)
+- [10千伏 K型号 标准](/Legacydata/10K.md)
 - 002
 - 003
 
-## 表2
+## 铭牌库
 
 
 
