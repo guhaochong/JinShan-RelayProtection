@@ -25,7 +25,7 @@ export default defineUserConfig({
           text: '目录',
           children: [
             '/get-started.md',
-            'Legacydata/10千伏 K型 标准 二次铭牌表-24-0-1.md',
+            'Legacydata/10K.md',
             '/about.md',
           ],
         },
