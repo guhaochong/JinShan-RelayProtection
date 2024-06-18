@@ -8,7 +8,6 @@ export default defineUserConfig({
   title: 'JinShan-RelayProtection',
   description: 'JinShan-RelayProtection Site',
 
-  base: '/JinShan-RelayProtection/',  // 添加这一行，确保路径与仓库名称匹配
   base: '/JinShan-RelayProtection/',
 
   theme: defaultTheme({
