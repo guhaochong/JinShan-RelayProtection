@@ -8,10 +8,10 @@ export default defineUserConfig({
   title: 'JinShan-RelayProtection',
   description: 'JinShan-RelayProtection Site',
 
-  base: '/JinShan-RelayProtection/',
+  base: '/JinShan-RelayProtection/', // 确认你的仓库名称作为 base
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/images/goodlogo.png', // 确认你的 logo 路径正确
 
     navbar: [
       { text: '首页', link: '/' },

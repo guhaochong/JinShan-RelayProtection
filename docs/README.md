@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: images/goodlogo.png
+heroImage: /images/goodlogo.png
 actions:
   - text: 开始
     link: /getting-started.html
@@ -13,5 +13,3 @@ actions:
 
 footer: MIT Licensed | Copyright © 2024 金山继保
 ---
-
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
