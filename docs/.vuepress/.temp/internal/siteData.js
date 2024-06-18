@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"JinShan-RelayProtection\",\"description\":\"JinShan-RelayProtection Site\",\"head\":[],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/JinShan-RelayProtection/\",\"lang\":\"zh-CN\",\"title\":\"JinShan-RelayProtection\",\"description\":\"JinShan-RelayProtection Site\",\"head\":[],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
