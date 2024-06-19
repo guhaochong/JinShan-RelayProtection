@@ -30,7 +30,6 @@ export default defineUserConfig({
             '/Page/10K-Automatic-Uploadplate.md',
             '/Page/10P-Standard-Uploadplate.md',
             '/Page/10K-SF6-Uploadplate.md',
-            '/about.md',
           ],
         },
       ],
