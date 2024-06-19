@@ -1,37 +1,18 @@
-# Get Started
+# 快速索引
 
-This is a normal page, which contains VuePress basics.
+这是一个快速索引页面，在这里可以按分类找到你需要的数据表
 
-## Pages
+## 点表库
 
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
+- [10千伏 K型号 标准 点表](/Page/10K-Standard-Uploadplate.md)
+- [10千伏 K型号 SF6充气型 点表](/Page/10K-SF6-Uploadplate.md)
+- [10千伏 P型号 标准 点表](/Page/10P-Standard-Uploadplate.md)
+- [10千伏 K型号 自愈 点表](/Page/10K-Automatic-Uploadplate.md)
 
-See [routing][] for more details.
+## 铭牌库
 
-## Content
-
-Every markdown file [will be rendered to HTML, then converted to a Vue SFC][content].
-
-VuePress support basic markdown syntax and [some extensions][synatex-extensions], you can also [use Vue features][vue-feature] in it.
-
-## Configuration
-
-VuePress use a `.vuepress/config.js`(or .ts) file as [site configuration][config], you can use it to config your site.
-
-For [client side configuration][client-config], you can create `.vuepress/client.js`(or .ts).
-
-Meanwhile, you can also add configuration per page with [frontmatter][].
-
-## Layouts and customization
-
-Here are common configuration controlling layout of `@vuepress/theme-default`:
-
-- [navbar][]
-- [sidebar][]
-
-Check [default theme docs][default-theme] for full reference.
-
-You can [add extra style][style] with `.vuepress/styles/index.scss` file.
+- [10千伏 K型号 标准 二次铭牌](/Page/10K-Standard-Nameplate.md)
+- 
 
 [routing]: https://vuejs.press/guide/page.html#routing
 [content]: https://vuejs.press/guide/page.html#content

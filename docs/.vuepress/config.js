@@ -3,16 +3,40 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  lang: 'en-US',
+  lang: 'zh-CN',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
-  base: '/JinShan-RelayProtection/',
+  title: 'JinShan-RelayProtection',
+  description: 'JinShan-RelayProtection Site',
+
+   base: '/JinShan-RelayProtection/', // 确认你的仓库名称作为 base
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/images/goodlogo.png', // 确认你的 logo 路径正确
 
-    navbar: ['/', '/get-started'],
+    navbar: [
+      { text: '首页', link: '/' },
+      { text: '索引', link: '/get-started' },
+      { text: '关于', link: '/about' }
+    ],
+
+    sidebar: {
+      '/': [
+        {
+          text: '目录',
+          children: [
+            '/get-started.md',
+
+            '/Page/10K-Standard-Nameplate.md',
+            '/Page/10K-Standard-Uploadplate.md',
+            '/Page/10K-Automatic-Uploadplate.md',
+            '/Page/10P-Standard-Uploadplate.md',
+            '/Page/10K-SF6-Uploadplate.md',
+            
+            '/Page/TEST.md',
+          ],
+        },
+      ],
+    },
   }),
 
   bundler: viteBundler(),
