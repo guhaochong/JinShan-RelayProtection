@@ -25,11 +25,14 @@ export default defineUserConfig({
           text: '目录',
           children: [
             '/get-started.md',
+
             '/Page/10K-Standard-Nameplate.md',
             '/Page/10K-Standard-Uploadplate.md',
             '/Page/10K-Automatic-Uploadplate.md',
             '/Page/10P-Standard-Uploadplate.md',
             '/Page/10K-SF6-Uploadplate.md',
+            
+            '/Page/TEST.md',
           ],
         },
       ],
